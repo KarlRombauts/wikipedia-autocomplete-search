@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/css/uikit.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body
+    <div class="boundary-align">
+      <form class="uk-search uk-search-large" autocomplete="off">
+        <span uk-search-icon></span>
+        <input id='search-field' class="uk-search-input" type="search" placeholder="Search Wikipedia..." />
+      </form>
+      <div
+        uk-dropdown="pos: bottom-justify; boundary: .boundary-align; boundary-align: true; mode: click"
+      >
+        <ul id="autocomplete" class="uk-nav uk-dropdown-nav">
+        </ul>
+      </div>
+    </div>
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/js/uikit-icons.min.js"></script>
+  </body>
+</html>

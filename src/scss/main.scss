@@ -1,0 +1,16 @@
+.boundary-align {
+  margin: 30px;
+  @media screen and (min-width: 600px) {
+    margin: 50px;
+  }
+  @media screen and (min-width: 900px) {
+    margin: 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 50px auto;
+    max-width: 80%;
+  }
+  @media screen and (min-width: 600px) {
+    margin: 50px;
+  }
+}
